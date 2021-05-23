@@ -1,4 +1,4 @@
-# fira-pixel
+# Fira Pixel
 ![c code demo](demo-c.png)
 
 ![demo](demo.png)
