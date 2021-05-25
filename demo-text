@@ -4,6 +4,7 @@ the quick brown fox jumps over the lazy dog
 THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 0123456789 &-+@ for (int i=0; i<=j; ++i) {}
 
-         >> Ligatures supported <<
+         === List of ligatures ===
 
-       => == != === !== >= <= ++ ...
+       => == != === !== >= <= ... ++
+                // || && __
