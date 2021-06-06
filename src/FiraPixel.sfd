@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: FiraPixelv40
-FullName: FiraPixelv40
-FamilyName: FiraPixelv40
+FontName: FiraPixelv45
+FullName: FiraPixelv45
+FamilyName: FiraPixelv45
 Weight: Medium
 Copyright: PartWorm
 Version: 001.000
@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1280473793
-ModificationTime: 1622894499
+ModificationTime: 1622923747
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +55,7 @@ OS2StrikeYPos: 265
 OS2Vendor: '2ttf'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000003.00000000.00000000.00000000
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "underscore-underscore"  "ampersand-ampersand"  "bar-bar"  "slash-slash"  "period-period-period"  "less-equal"  "greater-equal"  "not-equal-equal"  "equal-equal-equal"  "plus-plus"  "not-equal"  "equal-equal"  "equal-greater"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "colon-colon"  "exclam-exclam"  "hyphen-greater"  "underscore-underscore"  "ampersand-ampersand"  "bar-bar"  "slash-slash"  "period-period-period"  "less-equal"  "greater-equal"  "not-equal-equal"  "equal-equal-equal"  "plus-plus"  "not-equal"  "equal-equal"  "equal-greater"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ShortTable: cvt  2
@@ -91,7 +91,7 @@ FitToEm: 0
 WinInfo: 0 38 13
 BeginPrivate: 0
 EndPrivate
-BeginChars: 123 123
+BeginChars: 126 126
 
 StartChar: .notdef
 Encoding: 107 -1 0
@@ -641,49 +641,48 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-256 -128 m 1,0,-1
- 256 -64 l 1,1,-1
- 320 -64 l 1,2,-1
- 320 -128 l 1,3,-1
- 256 -128 l 1,0,-1
-256 -64 m 1,4,-1
- 192 -64 l 1,5,-1
- 192 0 l 1,6,-1
- 128 0 l 1,7,-1
- 128 64 l 1,8,-1
- 128 128 l 1,9,-1
- 64 128 l 1,10,-1
- 64 256 l 1,11,-1
- 64 320 l 1,12,-1
- 64 384 l 1,13,-1
- 64 448 l 1,14,-1
- 64 576 l 1,15,-1
- 128 576 l 1,16,-1
- 128 640 l 1,17,-1
- 128 704 l 1,18,-1
- 192 704 l 1,19,-1
- 192 768 l 1,20,-1
- 256 768 l 1,21,-1
- 256 704 l 1,22,-1
- 256 640 l 1,23,-1
- 192 640 l 1,24,-1
- 192 576 l 1,25,-1
- 192 448 l 1,26,-1
- 192 384 l 1,27,-1
- 192 320 l 1,28,-1
- 192 256 l 1,29,-1
- 192 128 l 1,30,-1
- 192 64 l 1,31,-1
- 256 64 l 1,32,-1
- 256 0 l 1,33,-1
- 256 -64 l 1,4,-1
-256 768 m 1,34,-1
- 256 832 l 1,35,-1
- 320 832 l 1,36,-1
- 320 768 l 1,37,-1
- 256 768 l 1,34,-1
+320 -128 m 5,0,-1
+ 320 -64 l 5,1,-1
+ 384 -64 l 5,2,-1
+ 384 -128 l 5,3,-1
+ 320 -128 l 5,0,-1
+320 -64 m 5,4,-1
+ 256 -64 l 5,5,-1
+ 256 0 l 5,6,-1
+ 192 0 l 5,7,-1
+ 192 64 l 5,8,-1
+ 192 128 l 5,9,-1
+ 128 128 l 5,10,-1
+ 128 256 l 5,11,-1
+ 128 320 l 5,12,-1
+ 128 384 l 5,13,-1
+ 128 448 l 5,14,-1
+ 128 576 l 5,15,-1
+ 192 576 l 5,16,-1
+ 192 640 l 5,17,-1
+ 192 704 l 5,18,-1
+ 256 704 l 5,19,-1
+ 256 768 l 5,20,-1
+ 320 768 l 5,21,-1
+ 320 704 l 5,22,-1
+ 320 640 l 5,23,-1
+ 256 640 l 5,24,-1
+ 256 576 l 5,25,-1
+ 256 448 l 5,26,-1
+ 256 384 l 5,27,-1
+ 256 320 l 5,28,-1
+ 256 256 l 5,29,-1
+ 256 128 l 5,30,-1
+ 256 64 l 5,31,-1
+ 320 64 l 5,32,-1
+ 320 0 l 5,33,-1
+ 320 -64 l 5,4,-1
+320 768 m 5,34,-1
+ 320 832 l 5,35,-1
+ 384 832 l 5,36,-1
+ 384 768 l 5,37,-1
+ 320 768 l 5,34,-1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: parenright
@@ -694,49 +693,48 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-128 -128 m 1,0,-1
- 128 -64 l 1,1,-1
- 192 -64 l 1,2,-1
- 192 -128 l 1,3,-1
- 128 -128 l 1,0,-1
-192 -64 m 1,4,-1
- 192 0 l 1,5,-1
- 192 64 l 1,6,-1
- 256 64 l 1,7,-1
- 256 128 l 1,8,-1
- 256 256 l 1,9,-1
- 256 320 l 1,10,-1
- 256 384 l 1,11,-1
- 256 448 l 1,12,-1
- 256 576 l 1,13,-1
- 256 640 l 1,14,-1
- 192 640 l 1,15,-1
- 192 704 l 1,16,-1
- 192 768 l 1,17,-1
- 256 768 l 1,18,-1
- 256 704 l 1,19,-1
- 320 704 l 1,20,-1
- 320 640 l 1,21,-1
- 320 576 l 1,22,-1
- 384 576 l 1,23,-1
- 384 448 l 1,24,-1
- 384 384 l 1,25,-1
- 384 320 l 1,26,-1
- 384 256 l 1,27,-1
- 384 128 l 1,28,-1
- 320 128 l 1,29,-1
- 320 64 l 1,30,-1
- 320 0 l 1,31,-1
- 256 0 l 1,32,-1
- 256 -64 l 1,33,-1
- 192 -64 l 1,4,-1
-192 768 m 1,34,-1
- 128 768 l 1,35,-1
- 128 832 l 1,36,-1
- 192 832 l 1,37,-1
- 192 768 l 1,34,-1
+64 -128 m 1,0,-1
+ 64 -64 l 1,1,-1
+ 128 -64 l 1,2,-1
+ 128 -128 l 1,3,-1
+ 64 -128 l 1,0,-1
+128 -64 m 1,4,-1
+ 128 0 l 1,5,-1
+ 128 64 l 1,6,-1
+ 192 64 l 1,7,-1
+ 192 128 l 1,8,-1
+ 192 256 l 1,9,-1
+ 192 320 l 1,10,-1
+ 192 384 l 1,11,-1
+ 192 448 l 1,12,-1
+ 192 576 l 1,13,-1
+ 192 640 l 1,14,-1
+ 128 640 l 1,15,-1
+ 128 704 l 1,16,-1
+ 128 768 l 1,17,-1
+ 192 768 l 1,18,-1
+ 192 704 l 1,19,-1
+ 256 704 l 1,20,-1
+ 256 640 l 1,21,-1
+ 256 576 l 1,22,-1
+ 320 576 l 1,23,-1
+ 320 448 l 1,24,-1
+ 320 384 l 1,25,-1
+ 320 320 l 1,26,-1
+ 320 256 l 1,27,-1
+ 320 128 l 1,28,-1
+ 256 128 l 1,29,-1
+ 256 64 l 1,30,-1
+ 256 0 l 1,31,-1
+ 192 0 l 1,32,-1
+ 192 -64 l 1,33,-1
+ 128 -64 l 1,4,-1
+128 768 m 1,34,-1
+ 64 768 l 1,35,-1
+ 64 832 l 1,36,-1
+ 128 832 l 1,37,-1
+ 128 768 l 1,34,-1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: asterisk
@@ -6213,9 +6211,9 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 14 43 N 1 0 0 1 576 0 2
-Refer: 14 43 N 1 0 0 1 64 0 2
-Validated: 5
+Refer: 14 43 N 1 0 0 1 512 0 2
+Refer: 14 43 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "plus-plus" plus plus
 EndChar
 
@@ -6813,11 +6811,11 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
-576 384 m 1
- 640 384 l 1
- 640 320 l 1
- 576 320 l 1
- 576 384 l 1
+576 384 m 1,0,-1
+ 640 384 l 1,1,-1
+ 640 320 l 1,2,-1
+ 576 320 l 1,3,-1
+ 576 384 l 1,0,-1
 EndSplineSet
 Refer: 9 38 N 1 0 0 1 576 0 2
 Refer: 9 38 N 1 0 0 1 64 0 2
@@ -6833,17 +6831,62 @@ VWidth: 0
 LayerCount: 2
 Fore
 SplineSet
-448 0 m 1
- 576 0 l 1
- 576 -64 l 1
- 448 -64 l 1
- 448 0 l 1
+448 0 m 1,0,-1
+ 576 0 l 1,1,-1
+ 576 -64 l 1,2,-1
+ 448 -64 l 1,3,-1
+ 448 0 l 1,0,-1
 EndSplineSet
 Refer: 66 95 N 1 0 0 1 576 0 2
 Refer: 66 95 N 1 0 0 1 0 0 2
 Validated: 5
 LCarets2: 1 0
 Ligature2: "underscore-underscore" underscore underscore
+EndChar
+
+StartChar: arrow
+Encoding: 123 -1 123
+Width: 1152
+VWidth: 0
+LayerCount: 2
+Fore
+SplineSet
+448 384 m 1,0,-1
+ 896 384 l 1,1,-1
+ 896 320 l 1,2,-1
+ 448 320 l 1,3,-1
+ 448 384 l 1,0,-1
+EndSplineSet
+Refer: 33 62 N 1 0 0 1 576 0 2
+Refer: 16 45 N 1 0 0 1 0 0 2
+Validated: 5
+LCarets2: 1 0
+Ligature2: "hyphen-greater" hyphen greater
+EndChar
+
+StartChar: exclam_exclam
+Encoding: 124 -1 124
+Width: 1152
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 4 33 N 1 0 0 1 512 0 2
+Refer: 4 33 N 1 0 0 1 128 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "exclam-exclam" exclam exclam
+EndChar
+
+StartChar: colon_colon
+Encoding: 125 -1 125
+Width: 1152
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 29 58 S 1 0 0 1 448 0 2
+Refer: 29 58 N 1 0 0 1 64 0 2
+LCarets2: 1 0
+Ligature2: "colon-colon" colon colon
 EndChar
 EndChars
 EndSplineFont
