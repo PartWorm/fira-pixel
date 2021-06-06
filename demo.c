@@ -12,5 +12,19 @@ float Q_rsqrt( float number )
 	y  = y * ( threehalfs - ( x2 * y * y ) );   // 1st iteration
 //	y  = y * ( threehalfs - ( x2 * y * y ) );   // 2nd iteration, this can be removed
 
+	const char* glyphs = "                  \
+	ABCDEFGHIJKLMNOPQRSTUVWXYZ              \
+	abcdefghijklmnopqrstuvwxyz              \
+                                            \
+	~!@#$%^&*()_+|[];'<>?                   \
+	`1234567890-={}:\",./                   \
+	";
+
+	const char* ligatures = "               \
+	  __  ::  >=  <=  //                    \
+	->  =>  ==  !=  === !==                 \
+	  ||  !!  ... &&  ++                    \
+	";
+
 	return y;
 }
